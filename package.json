@@ -1,0 +1,27 @@
+{
+  "name": "parse-object",
+  "version": "1.0.0",
+  "description": "Parse object to human readable string",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "keywords": [
+    "object",
+    "to",
+    "string",
+    "human",
+    "readable"
+  ],
+  "author": "Yu Jin <adamlyj89@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^2.1.1",
+    "lodash.defaults": "^2.4.1",
+    "lodash.isobject": "^2.4.1"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "lodash.isstring": "^2.4.1"
+  }
+}
