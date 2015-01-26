@@ -16,7 +16,7 @@ describe('object to string', function() {
   });
 
   it('should return string', function() {
-    var result = parseObject.parsify(mockObject, {
+    var result = parseObject(mockObject, {
       attrSeparator: '\n'
     });
     expect(isString(result)).to.be.true;
@@ -24,13 +24,13 @@ describe('object to string', function() {
 
   it('should return error', function() {
     expect(function() {
-      return parseObject.parsify('');
+      return parseObject('');
     }).to.throw(/Object is required/);
   });
 
   it('should remove last `attrSeparator`', function() {
     var attrSeparator = ',';
-    var result = parseObject.parsify(mockObject, {
+    var result = parseObject(mockObject, {
       attrSeparator: attrSeparator
     });
 
