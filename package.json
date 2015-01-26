@@ -1,5 +1,5 @@
 {
-  "name": "parse-object",
+  "name": "object-to-string",
   "version": "1.0.0",
   "description": "Parse object to human readable string",
   "main": "index.js",
