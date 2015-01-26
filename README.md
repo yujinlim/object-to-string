@@ -1,4 +1,4 @@
-# Object to String
+# Object to String [![Build Status](http://img.shields.io/travis/yujinlim/object-to-string.svg?style=flat-square)](https://travis-ci.org/yujinlim/object-to-string) [![Dependency Status](http://img.shields.io/gemnasium/yujinlim/object-to-string.svg?style=flat-square)](https://gemnasium.com/yujinlim/object-to-string)
 > parse object to human readable string
 
 ## Install
